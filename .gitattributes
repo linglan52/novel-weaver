@@ -1,0 +1,8 @@
+# 统一行尾为 LF，避免 Windows 与 CI 环境（Linux）之间的行尾混乱
+* text=auto
+*.py   text eol=lf
+*.md   text eol=lf
+*.toml text eol=lf
+*.yml  text eol=lf
+*.yaml text eol=lf
+*.sh   text eol=lf
